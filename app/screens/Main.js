@@ -59,7 +59,7 @@ export default class Main extends Component {
 
            {!!this.state.latitude && !!this.state.longitude && <MapView.Marker
              flat={true}
-             pinColor={Colors.primary}
+             pinColor={Colors.accent}
              opacity={0.5}
              coordinate={{"latitude":this.state.latitude,"longitude":this.state.longitude}}
              title={"Your Location"}
